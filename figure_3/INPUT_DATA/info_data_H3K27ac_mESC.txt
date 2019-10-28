@@ -1,0 +1,6 @@
+mark	condition	rep	file_path
+H3K27ac	DMSO	rep1	/data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC-iNPC_DMSOvsEPZ_fullEpigenomes_MERGED/output_DNA-mapping_snakepipe_mESC/filtered_bam/mESC_DMSO_rep1_H3K27ac_merged.filtered.bam
+H3K27ac	DMSO	rep2	/data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC-iNPC_DMSOvsEPZ_fullEpigenomes_MERGED/output_DNA-mapping_snakepipe_mESC/filtered_bam/mESC_DMSO_rep2_H3K27ac_merged.filtered.bam
+H3K27ac	EPZ	rep1	/data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC-iNPC_DMSOvsEPZ_fullEpigenomes_MERGED/output_DNA-mapping_snakepipe_mESC/filtered_bam/mESC_EPZ_rep1_H3K27ac_merged.filtered.bam
+H3K27ac	EPZ	rep2	/data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC-iNPC_DMSOvsEPZ_fullEpigenomes_MERGED/output_DNA-mapping_snakepipe_mESC/filtered_bam/mESC_EPZ_rep2_H3K27ac_merged.filtered.bam
+
