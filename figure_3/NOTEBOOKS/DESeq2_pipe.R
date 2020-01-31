@@ -48,7 +48,7 @@ count$V3 = NULL
 ### prepare design table ###
 des_table = read.csv(args[2],sep="\t")
 #des_table = read.csv("info_data.txt",sep="\t")
-rownames(des_table) = paste(des_table$mark,des_table$condition,des_table$rep,sep="_")
+rownames(des_table) = paste(des_table$mark,des_table$condition,des_table$rep,des_table$size_factor,sep="_")
 colnames(count) = rownames(des_table)
 all(rownames(des_table) == colnames(count))
 
@@ -56,7 +56,9 @@ all(rownames(des_table) == colnames(count))
 ### create dds object ###
 dds <- DESeqDataSetFromMatrix(countData = count,
                               colData = des_table,
-                              design = ~ rep + condition)
+                              design = ~ condition)
+
+#sizeFactors(dds) <- des_table$size_factor
 
 #hist(log2(rowSums(counts(dds))),n=40)
 
