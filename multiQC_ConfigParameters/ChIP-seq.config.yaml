@@ -1,0 +1,22 @@
+baseDir: /home/ferrari/anaconda3/envs/snakePipes/lib/python3.6/site-packages/snakePipes
+bw_binsize: 25
+cluster_configfile: null
+cluster_logs_dir: /data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC-iNPC_DMSOvsEPZ_fullEpigenomes_MERGED/output_DNA-mapping_snakepipe_mESC/cluster_logs
+configfile: null
+createDAG: false
+fragment_length: 200
+genome: mm10
+local: false
+max_jobs: 5
+notemp: false
+outdir: /data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC-iNPC_DMSOvsEPZ_fullEpigenomes_MERGED/output_DNA-mapping_snakepipe_mESC
+paired: true
+pipeline: chip-seq
+predict_chip_dict: false
+sample_info: null
+samples_config: /data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC-iNPC_DMSOvsEPZ_fullEpigenomes_MERGED/mESC_ChIP_samples.yaml
+snakemake_options: --use-conda --conda-prefix /home/ferrari/anaconda3/envs
+tempdir: /data/extended/
+verbose: false
+window_size: 150
+workingdir: /data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC-iNPC_DMSOvsEPZ_fullEpigenomes_MERGED/output_DNA-mapping_snakepipe_mESC

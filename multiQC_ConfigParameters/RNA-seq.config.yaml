@@ -1,0 +1,51 @@
+Nmasked_index: ''
+SNPfile: ''
+VCFfile: ''
+allele_mode: null
+baseDir: /home/ferrari/anaconda3/envs/snakePipes/lib/python3.6/site-packages/snakePipes
+bw_binsize: 25
+cluster_configfile: null
+cluster_logs_dir: /data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC_DMSOvsEPZ_RNA-Seq/output_RNA-Seq_snakepipe/cluster_logs
+configfile: null
+createDAG: false
+dnaContam: false
+downsample: null
+emailAddress: null
+emailSender: null
+ext: .fastq.gz
+fastqc: true
+featurecounts_options: -C -Q 10 --primary
+filter_annotation: null
+fragment_length: 200
+genome: mm10
+hisat_options: null
+indir: /data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC_DMSOvsEPZ_RNA-Seq/fastq_files
+library_type: 2
+local: false
+mapping_prg: STAR
+max_jobs: 10
+mode: alignment,alignment-free,deepTools_qc
+notemp: false
+onlySSL: false
+outdir: /data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC_DMSOvsEPZ_RNA-Seq/output_RNA-Seq_snakepipe
+pipeline: rna-seq
+plot_format: png
+reads:
+- _R1
+- _R2
+salmon_index_options: --type quasi -k 31
+sampleSheet: null
+smtpPassword: null
+smtpPort: 0
+smtpServer: null
+smtpUsername: null
+snakemake_options: ' --use-conda --conda-prefix /package/anaconda3/envs/ '
+snp_file: null
+star_options: --limitBAMsortRAM 71994691814
+strains: ''
+tempdir: /data/extended/
+trim: true
+trim_options: null
+trim_prg: cutadapt
+verbose: false
+workingdir: /data/manke/group/ferrari/PhD_project/reference_datasets/Ferrari_mESC_DMSOvsEPZ_RNA-Seq/output_RNA-Seq_snakepipe

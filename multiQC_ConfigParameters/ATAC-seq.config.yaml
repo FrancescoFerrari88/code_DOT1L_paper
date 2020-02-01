@@ -1,0 +1,26 @@
+baseDir: /package/anaconda3/envs/snakePipes-1.1.2/lib/python3.6/site-packages/snakePipes
+cluster_configfile: null
+cluster_logs_dir: /data/manke/group/ferrari/PhD_project/reference_datasets/Franz_Vogel_dataset/ATAC-Seq/output_ATAC-Seq_snakepipe/cluster_logs
+configfile: null
+createDAG: false
+emailAddress: null
+emailSender: null
+fragmentCount_cutoff: 1
+fragmentSize_cutoff: 150
+genome: mm10
+local: false
+max_jobs: 5
+notemp: false
+onlySSL: false
+outdir: /data/manke/group/ferrari/PhD_project/reference_datasets/Franz_Vogel_dataset/ATAC-Seq/output_ATAC-Seq_snakepipe
+pipeline: ATAC-seq
+sampleSheet: /data/manke/group/ferrari/PhD_project/reference_datasets/Franz_Vogel_dataset/ATAC-Seq/sampleSheet.txt
+smtpPassword: null
+smtpPort: 0
+smtpServer: null
+smtpUsername: null
+snakemake_options: ' --use-conda --conda-prefix /package/anaconda3/envs '
+tempdir: /data/extended/
+verbose: false
+window_size: 20
+workingdir: /data/manke/group/ferrari/PhD_project/reference_datasets/Franz_Vogel_dataset/ATAC-Seq/output_ATAC-Seq_snakepipe
