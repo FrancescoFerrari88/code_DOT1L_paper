@@ -6,7 +6,7 @@ This repository is a collection of jupyter notebooks and custom python scripts u
 
 1. Recreate the conda environments in your local machine. You find the requirements in the conda_environment folder;
 2. Add the folder AUXILIARY_SCRIPTS to both your PATH variable and to your PYTHONPATH variable;
-3. Install snakePipes v.1.1.1 (to do that, follow the detailed explanation available at https://snakepipes.readthedocs.io/en/latest/content/setting_up.html )_
+3. Install snakePipes v.1.1.1 (to do that, follow the detailed explanation available at https://snakepipes.readthedocs.io/en/latest/content/setting_up.html)
 
 ## Workflow 
 
